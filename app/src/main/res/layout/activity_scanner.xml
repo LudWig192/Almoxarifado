@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Requer a dependência: com.journeyapps:zxing-android-embedded -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aco_escuro"
+    android:orientation="vertical"
+    tools:context=".ScannerActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.Almox.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/aco_escuro"
+        app:navigationContentDescription="Voltar"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Ler código de barras">
+
+        <ImageButton
+            android:id="@+id/btnLanterna"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Ligar lanterna"
+            android:src="@drawable/ic_flash"
+            app:tint="@color/branco" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/camera_fundo">
+
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:id="@+id/barcodeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Moldura de mira -->
+        <View
+            android:layout_width="300dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_scan_frame" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aco_escuro"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aponte para o código de barras da embalagem"
+            android:textAppearance="@style/TextAppearance.Almox.Secao"
+            android:textColor="@color/branco"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="A ficha do item abre sozinha quando o código for lido."
+            android:textColor="@color/pendente_fundo"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center"
+            android:text="ou digite o código"
+            android:textColor="@color/pendente_fundo"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilCodigo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:hint="Código de barras"
+                app:boxBackgroundColor="@color/superficie">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:imeOptions="actionSearch"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBuscarCodigo"
+                style="@style/Widget.Almox.Button.Accent"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="Buscar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
