@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cartão de requisição pendente (tela de atendimento).
+     Se saldo < pedido: boxQuantidades.setBackgroundTintList(erro_fundo) e textos em @color/erro -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Almox.Nome"
+                    android:textSize="21sp"
+                    tools:text="Parafuso sextavado M8 x 30" />
+
+                <TextView
+                    android:id="@+id/tvDetalhe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Almox.Detalhe"
+                    tools:text="Linha de montagem 2 · Carlos · 10:42" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvStatus"
+                style="@style/Almox.Chip.Pendente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pendente" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/boxQuantidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_info_box"
+            android:backgroundTint="@color/concreto"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PEDIDO"
+                    android:textAppearance="@style/TextAppearance.Almox.Rotulo"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvPedido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Almox.Numero"
+                    android:textSize="20sp"
+                    tools:text="100" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SALDO"
+                    android:textAppearance="@style/TextAppearance.Almox.Rotulo"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSaldo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Almox.Numero"
+                    android:textSize="20sp"
+                    tools:text="148" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAtender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minHeight="52dp"
+            android:text="Atender requisição"
+            app:icon="@drawable/ic_check" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

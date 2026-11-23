@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Marca -->
+    <color name="aco">#1F4E5F</color>
+    <color name="aco_escuro">#12313C</color>
+    <color name="sinalizacao">#F5A623</color>
+
+    <!-- Neutras -->
+    <color name="tinta">#17222B</color>
+    <color name="concreto">#F3F4F2</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="grafite">#566370</color>
+    <color name="borda">#D5DADD</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="camera_fundo">#0B1F27</color>
+
+    <!-- Estados -->
+    <color name="sucesso">#1F7A4D</color>
+    <color name="alerta_texto">#8A5A00</color>
+    <color name="alerta_fundo">#FFF1CF</color>
+    <color name="erro">#B42318</color>
+    <color name="erro_fundo">#FDE7E4</color>
+    <color name="pendente_texto">#1F4E5F</color>
+    <color name="pendente_fundo">#DCEBEF</color>
+</resources>
