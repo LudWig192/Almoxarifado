@@ -58,7 +58,7 @@ abstract class AlmoxActivity extends AppCompatActivity {
         if (t != null) t.setNavigationOnClickListener(v -> finish());
     }
 
-    // TODO [REGRA-SEGURANCA] A checagem de perfil da UI só controla navegação; as Firestore Rules devem validar usuarios/{uid}.perfil em cada leitura e gravação protegida.
+    // Regra de segurança: gate() só controla a navegação; a proteção real está nas Firestore Rules (usuarios/{uid}.perfil).
     void gate(AppData.Perfil p) {
         if (user == null || user.perfil != p) {
             Toast.makeText(this, "Você não tem acesso a esta tela.", Toast.LENGTH_SHORT).show();
@@ -205,8 +205,6 @@ class RequisicaoAdapter extends RecyclerView.Adapter<RequisicaoAdapter.H> {
         }
         h.button.setOnClickListener(v -> {
             h.button.setEnabled(false);
-            click.atender(r);
-            h.button.setEnabled(true);
         });
     }
 
@@ -215,7 +213,6 @@ class RequisicaoAdapter extends RecyclerView.Adapter<RequisicaoAdapter.H> {
     }
 
     interface Click {
-        void atender(AppData.Requisicao r);
     }
 
     static class H extends RecyclerView.ViewHolder {
