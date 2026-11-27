@@ -24,10 +24,6 @@ O saldo só muda por meio de **entradas** e **atendimentos**, ambos gravados em 
 
 ## Telas
 
-> Substitua os caminhos pelos prints reais, na pasta `docs/prints/`.
-
-## Telas
-
 <table>
   <tr>
     <td align="center" width="33%">
