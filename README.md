@@ -5,11 +5,11 @@ Aplicativo Android (Java) para controle de estoque de um almoxarifado, com sincr
 ## Integrantes
 
 | Nome |
-|---|---|
-| _Livia Figueiredo Da Silva_ |
-| _Lucas Vinicius Tinin De Lima_ | 
-| _Sabrina Brito De Abreu Santos_ |
-| _Manoela Cruz Ramalho_ |
+|---|
+| Livia Figueiredo Da Silva |
+| Lucas Vinicius Tinin De Lima |
+| Sabrina Brito De Abreu Santos |
+| Manoela Cruz Ramalho |
 
 ## Problema
 
