@@ -4,11 +4,12 @@ Aplicativo Android (Java) para controle de estoque de um almoxarifado, com sincr
 
 ## Integrantes
 
-| Nome | Responsabilidade |
+| Nome |
 |---|---|
-| _Preencha o nome_ | _Ex.: autenticação e perfis_ |
-| _Preencha o nome_ | _Ex.: itens e movimentos_ |
-| _Preencha o nome_ | _Ex.: requisições_ |
+| _Livia Figueiredo Da Silva_ |
+| _Lucas Vinicius Tinin De Lima_ | 
+| _Sabrina Brito De Abreu Santos_ |
+| _Manoela Cruz Ramalho_ |
 
 ## Problema
 
