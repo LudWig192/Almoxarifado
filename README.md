@@ -28,15 +28,20 @@ O saldo só muda por meio de **entradas** e **atendimentos**, ambos gravados em 
 
 | Tela | Print |
 |---|---|
-| Login | `docs/prints/login.png` |
-| Cadastro de conta | `docs/prints/cadastro.png` |
-| Início do almoxarife | `docs/prints/home-almoxarife.png` |
-| Lista de itens | `docs/prints/itens.png` |
-| Ficha do item (últimos 3 movimentos) | `docs/prints/ficha-item.png` |
-| Entrada de estoque | `docs/prints/entrada.png` |
-| Atendimento de requisições | `docs/prints/atendimento.png` |
-| Início do solicitante | `docs/prints/home-solicitante.png` |
-| Nova requisição | `docs/prints/nova-requisicao.png` |
+| Login | `<img width="174" height="442" alt="image" src="https://github.com/user-attachments/assets/0b2e4e3b-bc7d-4677-b67c-b9550728992d" />
+` |
+|  Home do Almoxarife | `<img width="169" height="432" alt="image" src="https://github.com/user-attachments/assets/c662d931-a083-42c4-a8e7-ac26e7dd4376" />
+` |
+| Lista de itens | `<img width="168" height="435" alt="image" src="https://github.com/user-attachments/assets/1869e299-8461-4424-b28a-11a2aaba157f" />
+` |
+| Leitor de codigo de barras | `<img width="168" height="433" alt="image" src="https://github.com/user-attachments/assets/74279445-cd69-4f81-9a80-8ba1a0af41d6" />
+` |
+| Ficha do item | `<img width="163" height="430" alt="image" src="https://github.com/user-attachments/assets/e75270a2-efa8-49c6-b13a-cbd25b3fff99" />
+` |
+| Atendimento de requisições | `<img width="166" height="426" alt="image" src="https://github.com/user-attachments/assets/c37afd8f-b489-4b23-9bd5-d63c697733c5" />
+` |
+| Abaixo do minimo | `<img width="169" height="429" alt="image" src="https://github.com/user-attachments/assets/4fff03da-ced3-428c-8794-6e957f503720" />
+` |
 
 ## Tecnologias
 
