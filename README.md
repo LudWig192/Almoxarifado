@@ -26,22 +26,47 @@ O saldo só muda por meio de **entradas** e **atendimentos**, ambos gravados em 
 
 > Substitua os caminhos pelos prints reais, na pasta `docs/prints/`.
 
-| Tela | Print |
-|---|---|
-| Login | `<img width="174" height="442" alt="image" src="https://github.com/user-attachments/assets/0b2e4e3b-bc7d-4677-b67c-b9550728992d" />
-` |
-|  Home do Almoxarife | `<img width="169" height="432" alt="image" src="https://github.com/user-attachments/assets/c662d931-a083-42c4-a8e7-ac26e7dd4376" />
-` |
-| Lista de itens | `<img width="168" height="435" alt="image" src="https://github.com/user-attachments/assets/1869e299-8461-4424-b28a-11a2aaba157f" />
-` |
-| Leitor de codigo de barras | `<img width="168" height="433" alt="image" src="https://github.com/user-attachments/assets/74279445-cd69-4f81-9a80-8ba1a0af41d6" />
-` |
-| Ficha do item | `<img width="163" height="430" alt="image" src="https://github.com/user-attachments/assets/e75270a2-efa8-49c6-b13a-cbd25b3fff99" />
-` |
-| Atendimento de requisições | `<img width="166" height="426" alt="image" src="https://github.com/user-attachments/assets/c37afd8f-b489-4b23-9bd5-d63c697733c5" />
-` |
-| Abaixo do minimo | `<img width="169" height="429" alt="image" src="https://github.com/user-attachments/assets/4fff03da-ced3-428c-8794-6e957f503720" />
-` |
+## Telas
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/0b2e4e3b-bc7d-4677-b67c-b9550728992d" alt="Login" width="200"><br>
+      <sub><b>Login</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/c662d931-a083-42c4-a8e7-ac26e7dd4376" alt="Home do almoxarife" width="200"><br>
+      <sub><b>Home do almoxarife</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/1869e299-8461-4424-b28a-11a2aaba157f" alt="Lista de itens" width="200"><br>
+      <sub><b>Lista de itens</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/74279445-cd69-4f81-9a80-8ba1a0af41d6" alt="Leitor de código de barras" width="200"><br>
+      <sub><b>Leitor de código de barras</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/e75270a2-efa8-49c6-b13a-cbd25b3fff99" alt="Ficha do item" width="200"><br>
+      <sub><b>Ficha do item</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/c37afd8f-b489-4b23-9bd5-d63c697733c5" alt="Atendimento de requisições" width="200"><br>
+      <sub><b>Atendimento de requisições</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/4fff03da-ced3-428c-8794-6e957f503720" alt="Item abaixo do mínimo" width="200"><br>
+      <sub><b>Item abaixo do mínimo</b></sub>
+    </td>
+    <td width="33%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+  </tr>
+</table>
+
 
 ## Tecnologias
 
