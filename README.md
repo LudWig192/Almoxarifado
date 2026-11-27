@@ -89,7 +89,7 @@ dependencies {
 O cadastro pelo aplicativo **não define perfil**: quem se cadastra fica sem acesso até receber um perfil manualmente. Por isso as contas abaixo são criadas pelo console.
 
 | Perfil | E-mail | 
-|---|---|---|
+|---|---|
 | Almoxarife | `almoxarife.teste@gmail.com` |
 | Solicitante | `solicitante.teste@gmail.com` | 
 Para criar cada conta:
