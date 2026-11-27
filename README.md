@@ -92,6 +92,7 @@ O cadastro pelo aplicativo **não define perfil**: quem se cadastra fica sem ace
 |---|---|
 | Almoxarife | `almoxarife.teste@gmail.com` |
 | Solicitante | `solicitante.teste@gmail.com` | 
+
 Para criar cada conta:
 
 1. **Authentication → Usuários → Adicionar usuário**, com e-mail e senha (mínimo de 6 caracteres). Copie o **UID**.
