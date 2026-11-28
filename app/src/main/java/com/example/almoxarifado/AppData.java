@@ -67,11 +67,13 @@ public final class AppData {
         void cadastrar(String nome, String email, String senha, Callback<Usuario> cb);
 
         // Chamar ao abrir o app. ok(null) significa "ninguém logado".
-        void restaurarSessao(Callback<Usuario> cb);
+        void restaurar(Callback<Usuario> cb);
 
         void sair();
 
         Usuario sessao();
+
+        AppData.Resultado<Usuario> entrar(String em, String pw);
     }
 
     public interface ItemRepository {
@@ -329,7 +331,7 @@ public final class AppData {
         }
 
         @Override
-        public void restaurarSessao(Callback<Usuario> cb) {
+        public void restaurar(Callback<Usuario> cb) {
             FirebaseUser u = auth.getCurrentUser();
             if (u == null) {
                 cb.ok(null);
